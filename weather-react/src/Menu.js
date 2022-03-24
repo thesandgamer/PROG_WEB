@@ -12,7 +12,7 @@ class Menu extends React.Component{
     //Fonction qui va créer un nouvel item de menu avec une ville et une fonction donnée
     createMenuItem(city,func) 
     {
-        return <span key={city} > <MenuItem label={city} key={city}  function={func}/>  </span>
+        return <span key={city} > &nbsp;   <MenuItem label={city} key={city}  function={func}/>  </span>
     }
 
 

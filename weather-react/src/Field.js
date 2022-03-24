@@ -34,7 +34,7 @@ class Field extends React.Component
         //const addCityFunction = this.props.addCityFunction;
         return (
             <div>
-             <Button key={this.state.name} href = '#' onClick= {() => this.props.addCityFunction(this.state.name)}> Add city</Button>
+             <Button key={this.state.name} href = '#' onClick= {() =>{this.props.addCityFunction(this.state.name); this.setName('')}}> Add city</Button>
              <TextField value={this.state.name} label="Enter city name" onChange={(e) => {this.setName(e.target.value);} }/>
             </div>
         

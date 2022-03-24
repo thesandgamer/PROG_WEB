@@ -69,12 +69,16 @@ class App extends React.Component
 
   addCity(citie)
   {
+    const oldCities = this.state.cities;
     if (citie !='')
     {
       console.log("City added: " + citie);
+      oldCities.push(citie);
+      console.log(oldCities);
+      
       this.setState(
         {
-          cities: [citie],
+          cities: [oldCities],
         }
       )
 
