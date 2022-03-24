@@ -1,0 +1,28 @@
+p  
+{
+    color: rgb(187, 187, 187);
+}
+
+h1
+{
+    color:darkgreen;
+}
+
+a
+{
+    color:rgb(0, 110, 255);
+    text-decoration: underline;
+}
+
+.intro{
+    font-weight:bold;
+    color: rgb(54, 54, 54);
+}
+
+#third-p{
+    color:red;
+}
+
+.footer p {
+    color:rgb(39, 144, 192);
+}

@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "axios": "^0.26.1",
+    "chalk": "^5.0.1",
+    "express": "^4.17.3",
+    "request": "^2.88.2",
+    "validator": "^13.7.0",
+    "yargs": "^17.4.0"
+  }
+}
